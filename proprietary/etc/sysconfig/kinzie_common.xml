@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<config>
+    <!-- These are telephony components that need to run in the background -->
+    <allow-in-power-save package="com.qualcomm.atfwd" />
+    <allow-in-power-save package="com.qualcomm.embms" />
+    <allow-in-power-save package="com.qulacomm.qcrilmsgtunnel" />
+</config>

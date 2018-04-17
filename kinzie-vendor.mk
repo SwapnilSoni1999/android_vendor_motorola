@@ -17,6 +17,8 @@
 #    vendor/motorola/kinzie/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
 #    vendor/motorola/kinzie/proprietary/vendor/lib64/libsd_sdk_display.so:system/vendor/lib64/libsd_sdk_display.so \
 
+$(call inherit-product, vendor/motorola/kinzie/device-vendor.mk)
+
 PRODUCT_COPY_FILES += \
     vendor/motorola/kinzie/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/motorola/kinzie/proprietary/bin/adspd:system/bin/adspd \
